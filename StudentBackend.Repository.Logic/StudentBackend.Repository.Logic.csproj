@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StudentBackend.Common.Logic.Contracts\StudentBackend.Common.Logic.Contracts.csproj" />
+    <ProjectReference Include="..\StudentBackend.Common.Logic\StudentBackend.Common.Logic.csproj" />
+    <ProjectReference Include="..\StudentBackend.Repository.Logic.Contracts\StudentBackend.Repository.Logic.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
