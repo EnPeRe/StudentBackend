@@ -36,7 +36,6 @@ namespace StudentBackend.Repository.Logic
         public List<Student> GetAll()
         {
             this.logger.Debug("Listing all Student");
-
             using (var context = this.studentContext)
             {
                 return context.Students.ToList();
